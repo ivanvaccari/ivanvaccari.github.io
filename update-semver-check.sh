@@ -10,6 +10,7 @@ echo "Copy semver-check"
 rm -rf ./semver-check/*
 cp -r ../semver-check/build/* ./semver-check
 
+
 git add .
 git commit -m "Updated semver-check"
 git push
