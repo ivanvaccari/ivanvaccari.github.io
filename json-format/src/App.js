@@ -113,7 +113,7 @@ function App() {
     return (
         <div className="App">
             <h3>Json format</h3>
-            Tries to encode/decode a json in various flavous
+            Tries to encode/decode a json in various flavours
             <div className={'json-code'}>
                 <AceEditor
                     mode="json"
