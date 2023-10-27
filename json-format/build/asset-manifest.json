@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/json-format/public/static/css/main.e5c37227.css",
+    "main.js": "/json-format/public/static/js/main.c146cda8.js",
+    "index.html": "/json-format/public/index.html",
+    "main.e5c37227.css.map": "/json-format/public/static/css/main.e5c37227.css.map",
+    "main.c146cda8.js.map": "/json-format/public/static/js/main.c146cda8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5c37227.css",
+    "static/js/main.c146cda8.js"
+  ]
+}

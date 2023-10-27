@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/semver-check/public/static/css/main.06fee5b4.css",
+    "main.js": "/semver-check/public/static/js/main.e4f80efe.js",
+    "index.html": "/semver-check/public/index.html",
+    "main.06fee5b4.css.map": "/semver-check/public/static/css/main.06fee5b4.css.map",
+    "main.e4f80efe.js.map": "/semver-check/public/static/js/main.e4f80efe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fee5b4.css",
+    "static/js/main.e4f80efe.js"
+  ]
+}

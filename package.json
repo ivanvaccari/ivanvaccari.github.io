@@ -1,0 +1,19 @@
+{
+    "name": "ivanvaccari.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "workspaces": [
+        "semver-check",
+        "json-format"
+    ],
+    "scripts": {
+        "build:semver-check": "cd ./semver-check && npm run build",
+        "build:json-format": "cd ./json-format && npm run build",
+        "build": "run-p --max-parallel 2 build:*"
+    },
+    "dependencies": {
+        "npm-run-all": "^4.1.5"
+    },
+    "author": "Ivan Vaccari",
+    "license": "ISC"
+}
