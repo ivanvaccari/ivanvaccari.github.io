@@ -75,7 +75,7 @@ function App() {
             console.log("Simple JSON.parse failed: "+e.message);
         }
 
-        setAlert({type:'error', message:"Cannot decode json"});
+        setAlert({type:'danger', message:"Cannot decode json"});
         throw new Error("Invalid json")
     }
 
@@ -123,7 +123,7 @@ function App() {
                     height='100%'
                     
                     onChange={(value) => setText(value)}
-                    name="UNIQUE_ID_OF_DIV"
+                    name="UNIQUE_ID_OF_DIV_HEHEHE_TRY_TO_USE_THIS_ID_WITHOUT_GETTING_YELLED_AT"
                     editorProps={{ $blockScrolling: true,useWorker: false, showLineNumbers: true}}
                 />
             </div>
