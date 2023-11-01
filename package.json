@@ -4,11 +4,13 @@
     "description": "",
     "workspaces": [
         "semver-check",
-        "json-format"
+        "json-format",
+        "qrcode-generator"
     ],
     "scripts": {
         "build:semver-check": "cd ./semver-check && npm run build",
         "build:json-format": "cd ./json-format && npm run build",
+        "build:qrcode-generator": "cd ./qrcode-generator && npm run build",
         "build": "run-p --max-parallel 2 build:*"
     },
     "dependencies": {
