@@ -3,6 +3,7 @@ import AceEditor from "react-ace";
 import "ace-builds/src-noconflict/mode-json";
 import "ace-builds/src-noconflict/theme-github";
 import "ace-builds/src-noconflict/ext-language_tools";
+import 'ace-builds/src-noconflict/ext-searchbox';
 import LZString from 'lz-string';   
 import './App.css';
 
@@ -121,7 +122,6 @@ function App() {
                     value={text}
                     width='100%'
                     height='100%'
-                    
                     onChange={(value) => setText(value)}
                     name="UNIQUE_ID_OF_DIV_HEHEHE_TRY_TO_USE_THIS_ID_WITHOUT_GETTING_YELLED_AT"
                     editorProps={{ $blockScrolling: true,useWorker: false, showLineNumbers: true}}
