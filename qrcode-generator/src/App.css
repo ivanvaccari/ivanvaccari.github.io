@@ -1,0 +1,15 @@
+.app {
+  width: 100%;
+  height: 100%;
+}
+
+.data-in{
+    width: 40%;
+}
+
+.data-out{
+    text-align: center;
+    width: 60%;
+    max-width: 60%;
+    overflow: scroll;
+}
